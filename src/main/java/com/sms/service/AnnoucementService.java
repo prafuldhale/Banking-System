@@ -34,6 +34,7 @@ public class AnnoucementService {
 	
 	public List<Annoucement> getAllAnnoucements(){
 		List<Annoucement> annoucementList = annoucementRepo.findAll();
+		System.out.println(annoucementList);
 		return annoucementList;
 	}
 
